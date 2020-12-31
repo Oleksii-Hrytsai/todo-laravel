@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+        <test-component></test-component>
     <div class="w-full h-full" id="app">
         <div class="todo-appbar">
             <div class="px-4 mx-auto w-full h-full flex justify-between lg:container">

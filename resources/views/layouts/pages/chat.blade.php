@@ -1,6 +1,4 @@
-@extends('layouts.app')
 
-@section('content')
     <div class="w-full h-full relative" id="app" v-resize="resize">
         <div class="min-h-screen flex flex-col transition-all ease-in-out duration-300 relative"
              :class="{        'lg:ml-80': drawer,      }">
@@ -177,5 +175,4 @@
             </transition>
         </div>
     </div>
-    </div>
-@endsection
+

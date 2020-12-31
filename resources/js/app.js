@@ -4,7 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+// require('./bootstrap');
 
 window.Vue = require('vue');
 
@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.config.delimiters = ['<%', '%>']
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('test-component', require('./components/TestComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -34,8 +35,7 @@ require ('./profile');
 require ('./plans');
 require ('./chunk-vendors.js');
 require ('./chunk-common.js');
-const app = new Vue({
-    el: '#app',
-    data: data,
-    delimiters: ["<%","%>"]
-});
+// const app = new Vue({
+//     el: '#app',
+//     delimiters: ["<%","%>"]
+// });
