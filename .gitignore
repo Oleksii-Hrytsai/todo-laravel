@@ -3,7 +3,6 @@
 /public/storage
 /storage/*
 /public/files
-/public/images
 public/css/*
 !public/css/style.css
 !public/css/bootstrap-4-grid.min.css
