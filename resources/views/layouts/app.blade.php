@@ -9,7 +9,7 @@
     <div>
         @yield('content')
     </div>
-    @include('layouts.pages.chat')
+{{--    @include('layouts.pages.chat')--}}
 
 
 </body>
