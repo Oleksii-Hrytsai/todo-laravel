@@ -10,7 +10,7 @@
                     <ul class="h-full flex items-center space-x-4 font-bold text-white overflow-ellipsis max-w-full">
                         <li class="hidden md:block" v-for="(item, i) in mainMenu" :key="i"><a
                                 class="rounded-full px-8 py-2 transition-all" :href="item.href"
-                                :class="{              'hover:bg-white hover:bg-opacity-20': !item.active,              'bg-white': item.active,              'text-primary': item.active,            }"><%item.title%></a>
+                                :class="{              'hover:bg-white hover:bg-opacity-20': !item.active,              'bg-white': item.active,              'text-primary': item.active,            }"><% item.title %></a>
                         </li>
                         <li><a class="todo-user-icon-xl flex-initial relative" href="#" @mouseover="mainUserMenu = true"
                                @mouseleave="mainUserMenu = false" @click.self.prevent="mainUserMenu = !mainUserMenu">

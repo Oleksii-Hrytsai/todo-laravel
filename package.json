@@ -16,11 +16,19 @@
         "jquery": "^3.2",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.19",
+        "moment": "*",
         "popper.js": "^1.12",
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.20.1",
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "vue-advanced-chat": "^0.6.2",
+        "vue-click-outside": "^1.1.0",
+        "vue-moment": "^4.1.0",
+        "vue-resize-directive": "^1.2.0",
+        "vue-scroll": "^2.1.13"
     }
 }
